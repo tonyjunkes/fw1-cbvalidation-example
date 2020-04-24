@@ -1,0 +1,11 @@
+# IDE configs
+**/.vscode
+**/*.iml
+**/.idea
+.project
+.settings
+# Application specific
+**/logs
+/subsystems
+/framework
+/testbox

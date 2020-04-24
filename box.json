@@ -1,0 +1,23 @@
+{
+    "name":"fw1-cbvalidation-example",
+    "version":"0.1.0",
+    "author":"@tonyjunkes",
+    "shortDescription":"FW/1 & CBValidation",
+    "description":"An example of using ColdBox Validation in an FW/1 application.",
+    "instructions":"Drop it in, fire up Commandbox, type install && start and go!",
+    "dependencies":{
+        "fw1":"be",
+        "cbvalidation":"^2.1.0"
+    },
+    "devDependencies":{
+        "testbox":"^3.2.0"
+    },
+    "installPaths":{
+        "fw1":"framework/",
+        "cbvalidation":"subsystems/cbvalidation/",
+        "testbox":"testbox/"
+    },
+    "testbox":{
+        "runner":"http://localhost:8520/tests/runner.cfm"
+    }
+}

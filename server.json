@@ -1,0 +1,14 @@
+{
+    "name":"fw1-cbvalidation-example",
+    "app":{
+        "cfengine":"lucee@5.3"
+    },
+    "web":{
+        "http":{
+            "port":"8520"
+        },
+        "rewrites":{
+            "enable":true
+        }
+    }
+}
